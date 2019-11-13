@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../style/uikit.min.css" />
   <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/styletext.css" />
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
 
   <script src="../js/uikit.min.js"></script>
@@ -44,13 +45,28 @@
         <hr class="uk-divider-icon">
 
 
+        <form name="myForm" action="https://mailthis.to/abareyan@gmail.com" method="POST" class="postcard">
+          <div class="form-row">
+            <label for="name">Name</label><input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label><input type="email" name="_replyto" id="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label><textarea rows="5" name="message" id="message" required></textarea>
+          </div>
+          <div class="form-row">
+            <input type="submit" value="Send">
+          </div>
+        </form>
 
+        </div>
 
-<button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-reveal">Reveal</button>
-
-
-
-  </div>
+        <footer class="uk-margin-large-top">
+          <a href="https://github.com/ABareyan"><span uk-icon="github"></span>&nbsp GitHub</a>
+          <a href="https://www.linkedin.com/in/bareyan-arman-127550190/"><span uk-icon="linkedin"></span>&nbsp Linkedin</a>
+          <a href="../assets/Resume.pdf"><span uk-icon="file-pdf"></span>&nbsp Resume</a>
+        </footer>
 </body>
 
 </html>

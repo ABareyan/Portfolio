@@ -10,6 +10,10 @@
   background-color: rgb(232, 235, 241);
 }
 
+#nav h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 
 .size {
   font-size: 1.3em;

@@ -16,12 +16,10 @@
 
 <body>
 
-
   <div class="uk-container uk-container-large">
+
     <nav class="uk-navbar-container" id="nav" uk-navbar>
-
       <div class="uk-navbar-left">
-
         <a href="/"><img
             class="uk-align-center uk-align-right@m uk-margin-remove-adjacent uk-margin-medium-top uk-margin-medium-right round"
             src="../assets/1979.jpg" width="100" alt="Arman Bareyan"></a>
@@ -29,8 +27,6 @@
         <h2>Arman Bareyan</h2>
 
       </div>
-
-
       <div class="uk-navbar-right uk-margin-medium-right">
 
         <ul class="uk-navbar-nav">
@@ -43,7 +39,6 @@
     </nav>
 
     <hr class="uk-divider-icon">
-
 
     <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
 
@@ -93,8 +88,7 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Soccer Players</h1>
           <p class="size uk-text-center">When page uploaded you'll see the list with names of several soccer players.
-            You must press on one of that <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_sp"
-            href="#">More...</a></p>
+            <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_sp" href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Soccer.png');">
           </div>
@@ -112,7 +106,7 @@
           <h1 class="uk-text-center">Train Schedule</h1>
           <p class="size uk-text-center">In this page, you will find train schedule and can also input your own schedule
             or remove one of them. <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_ts"
-            href="#">More...</a></p>
+              href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Train.png');">
           </div>
@@ -123,7 +117,8 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Travel Wizard</h1>
           <p class="size uk-text-center">This project allows a user to receive detailed information about their
-            destination country to aid in traveling safely. More ...</p>
+            destination country <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_tw" href="#">More...</a>
+          </p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Travel.png');">
           </div>
@@ -140,7 +135,8 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Liri Node App</h1>
           <p class="size uk-text-center">LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and
-            Recognition Interface, More ...</p>
+            Recognition Interface, <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_lna"
+              href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Liri.png');">
           </div>
@@ -151,7 +147,7 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Bamazon</h1>
           <p class="size uk-text-center">The app take in orders from customers and delete stock from the store's
-            inventory. More ...</p>
+            inventory. <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_bn" href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Bamazon.png');">
           </div>
@@ -168,7 +164,8 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Traveling Friend Finder</h1>
           <p class="size uk-text-center">Friend Finder implements friend matching based on the user's responses to a 8
-            question survey. More ...</p>
+            question survey. <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_tff" href="#">More...</a>
+          </p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Friend.png');">
           </div>
@@ -179,7 +176,7 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">Burger Time!</h1>
           <p class="size uk-text-center">Tis a restaurant app that lets users input the names of burgers they'd like to
-            eat. More ...</p>
+            eat. <a class="uk-link-heading" uk-toggle="target: #offcanvas-reveal_bt" href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/Burger.png');">
           </div>
@@ -196,7 +193,8 @@
         <div class="uk-card uk-card-default uk-card-body">
           <h1 class="uk-text-center">EMPower</h1>
           <p class="size uk-text-center">There is not a single platform where employees search for the jobs and
-            employers post what they are looking for. More ...</p>
+            employers post what they are looking for. <a class="uk-link-heading"
+              uk-toggle="target: #offcanvas-reveal_emp" href="#">More...</a></p>
           <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200"
             style="background-image: url('../assets/EMP.png');">
           </div>
@@ -274,65 +272,169 @@
 
     <!-- Soccer Players -->
     <div id="offcanvas-reveal_sp" uk-offcanvas="mode: reveal; overlay: true">
-        <div class="uk-offcanvas-bar">
-          <button class="uk-offcanvas-close" type="button" uk-close></button>
-  
-          <h3>Soccer Players</h3>
-          <p>The project was created by the GIPHY API. The limit was 10 pictures.</p>
-          <p>When page uploaded you'll see the list with names of several soccer players.</p>
-          <p>You must press on one of that player name.</p>
-          <p>After that, you will see photos of the player By clicking on the picture, it will become animated. If you press again in the same picture it is become not animated.</p>
-          <p>If your favorite player is not in the list of players, you can add him by writing his name in the "Add Player" chapter and click on the button "Add Player". Then follow the instructions in chapter 2.</p>
-  
-          <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/GifTastic">GitHub</a>
-          <a class="uk-link-muted uk-margin-small-left" href="https://abareyan.github.io/GifTastic/">Live Link</a>
-        </div>
-      </div>
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-      <!-- Train Schedule -->
+        <h3>Soccer Players</h3>
+        <p>The project was created by the GIPHY API. The limit was 10 pictures.</p>
+        <p>When page uploaded you'll see the list with names of several soccer players.</p>
+        <p>You must press on one of that player name.</p>
+        <p>After that, you will see photos of the player By clicking on the picture, it will become animated. If you
+          press again in the same picture it is become not animated.</p>
+        <p>If your favorite player is not in the list of players, you can add him by writing his name in the "Add
+          Player" chapter and click on the button "Add Player". Then follow the instructions in chapter 2.</p>
+
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/GifTastic">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="https://abareyan.github.io/GifTastic/">Live Link</a>
+      </div>
+    </div>
+
+    <!-- Train Schedule -->
     <div id="offcanvas-reveal_ts" uk-offcanvas="mode: reveal; overlay: true">
-        <div class="uk-offcanvas-bar">
-          <button class="uk-offcanvas-close" type="button" uk-close></button>
-  
-          <h3>Train Schedule</h3>
-          <p>In this page, you will find train schedule and can also input your own schedule or remove one of them.</p>
-          <p>Page reloads every minute</p>
-          <p>Shows the current time.</p>
-          
-          <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/Train-Scheduler">GitHub</a>
-          <a class="uk-link-muted uk-margin-small-left" href="https://abareyan.github.io/Train-Scheduler/">Live Link</a>
-        </div>
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Train Schedule</h3>
+        <p>In this page, you will find train schedule and can also input your own schedule or remove one of them.</p>
+        <p>Page reloads every minute</p>
+        <p>Shows the current time.</p>
+
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/Train-Scheduler">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="https://abareyan.github.io/Train-Scheduler/">Live Link</a>
       </div>
+    </div>
+
+    <!-- Travel Wizard -->
+    <div id="offcanvas-reveal_tw" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Travel Wizard</h3>
+        <p>This project allows a user to receive detailed information about their destination country to aid in
+          traveling safely.</p>
+        <p>Simply enter the city you are located in. Enter the country you want to visit. Enter the amount of money you
+          are traveling with. Press "LET'S GO".</p>
+
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/Travel-Wizard">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="https://abareyan.github.io/Travel-Wizard/">Live Link</a>
+      </div>
+    </div>
+
+    <!-- Liri Node App -->
+    <div id="offcanvas-reveal_lna" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Liri Node App</h3>
+        <p>LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is
+          a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in
+          parameters and gives you back data.</p>
+        <p>Type in terminal node liri.js movie-this then movie's name and press enter/return LIRI's output will be
+          Title of the movie, Year the movie came out, IMDB Rating of the movie, Rotten Tomatoes Rating of the movie,
+          Country where the movie was produced, Language of the movie, Plot of the movie, Actors in the movie.</p>
+        <p>Type in terminal node liri.js concert-this, then artist's or band's name and press enter/return
+          You can choose how many venues do you want to see First one, Any one, First five, Any five, All</p>
+        <p>For see more press Github link</p>
 
 
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/liri-node-app">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Bamazon -->
+    <div id="offcanvas-reveal_bn" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Bamazon</h3>
+        <p>The app take in orders from customers and delete stock from the store's inventory.</p>
+        <h4>Challenge #1: Customer View</h4>
+        <p>The first message asks the customers the ID of the product they would like to buy
+          The second one asks the customers how many units of the product they would like to buy
+          After that, (if your store has enough of the product) the application will show the customer the total cost of
+          his purchase and refresh the database.</p>
+        <h4>Challenge #2: Manager View</h4>
+        <p>The first message, "View Products for Sale", shows to the manager the list every item even if quantity is 0
+          The second message, "View Low Inventory", shows to the manager list all items with an inventory count lower
+          than he/she wants to see. Next message, "Add to Inventory", allow the manager to add inventory The last one,
+          "Add New Product", allow the manager to add a completely new product to the store.</p>
+        <h4>Challenge #3: Supervisor View</h4>
+        <p>The first message, "View Product Sales by Departmen", shows to the supervisor the list of deparments with
+          over head costs, product sales, and total profit. Next message, "Create New Department", allow the supervisor
+          to add deparments</p>
+        <p>For see more press Github link</p>
 
 
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/Node.js-MySQL">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Traveling Friend Finder -->
+    <div id="offcanvas-reveal_tff" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Traveling Friend Finder</h3>
+        <p>Friend Finder implements friend matching based on the user's responses to a 8 question survey.</p>
+        <p>The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree).</p>
+        <p>When the survey is submitted, an existing user record closest to the current user's responses is found and
+          returned. The closest set of user responses is defined as the set with the lowest absolute difference for all
+          8 questions combined.</p>
 
 
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/FriendFinder">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="https://whispering-scrubland-21865.herokuapp.com/">Live
+          Link</a>
+      </div>
+    </div>
 
+    <!-- Burger Time! -->
+    <div id="offcanvas-reveal_bt" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
 
+        <h3>Burger Time!</h3>
+        <p>Is a restaurant app that lets users input the names of burgers they'd like to eat.</p>
+        <p>Whenever a user submits a burger's name, your app will display the burger on the left side of the page --
+          waiting to be devoured.</p>
+        <p>Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move
+          to the right side of the page.</p>
 
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/Burger">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="https://secure-cove-79588.herokuapp.com/">Live
+          Link</a>
+      </div>
+    </div>
 
+    <!-- EMPower -->
+    <div id="offcanvas-reveal_emp" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
 
+        <h3>EMPower</h3>
+        <p>Too many job seekers But… There is not a single platform where employees search for the jobs and employers
+          post what they are looking for</p>
+        <p>Building a middle ground between people who are actively looking for jobs and employers who are having
+          difficulties finding competitive employee</p>
+        <p>Job seekers look into our database to see available positions and compensation. If the type of job and
+          compensation they are looking for matches with employers need, we will display the available jobs If they
+          can’t find the type of jobs, they can post themselves what type of jobs they are looking for and anticipated
+          compensation</p>
+        <p>Employers can directly post what type of employees they are hiring If there’s already profile set by the job
+          seekers, employer can contact them</p>
 
-
-
-
-
-
-
-
-
-
-
-
+        <a class="uk-link-muted uk-margin-small-right" href="https://github.com/ABareyan/EMPower">GitHub</a>
+        <a class="uk-link-muted uk-margin-small-left" href="http://floating-retreat-12294.herokuapp.com/">Live
+          Link</a>
+      </div>
+    </div>
 
   </div>
 
   <footer class="uk-margin-large-top">
     <a href="https://github.com/ABareyan"><span uk-icon="github"></span>&nbsp GitHub</a>
     <a href="https://www.linkedin.com/in/bareyan-arman-127550190/"><span uk-icon="linkedin"></span>&nbsp Linkedin</a>
-    <a href="assets/Resume.pdf"><span uk-icon="file-pdf"></span>&nbsp Resume</a>
+    <a href="../assets/Resume.pdf"><span uk-icon="file-pdf"></span>&nbsp Resume</a>
   </footer>
 
 
